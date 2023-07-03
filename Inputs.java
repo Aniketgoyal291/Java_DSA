@@ -13,5 +13,9 @@ class Inputs {
 
         sc.close();
 
+        // will trim all the spaces at the start of a String.
+        String str = "     Aniket goyal is my name";
+        System.out.println(str.trim());
+
     }
 }
