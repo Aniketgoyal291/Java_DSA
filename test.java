@@ -31,5 +31,7 @@ public class test {
         test obj = new test();
         obj.fibonacchi(10);
 
+        System.out.println("aniekt");
+
     }
 }
