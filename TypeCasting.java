@@ -37,5 +37,7 @@ public class TypeCasting {
         // System.out.println((f * b) + " " + (i / c) + " " + +(d - s));
         // System.out.println(result);
 
+        sc.close();
+
     }
 }
