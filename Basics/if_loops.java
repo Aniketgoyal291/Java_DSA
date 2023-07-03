@@ -1,10 +1,12 @@
-public class test {
+import java.util.Scanner;
+
+public class if_loops {
 
     void fibonacchi(int length) {
 
-        int first = 0;
-        int second = 1;
-        int intermediate;
+        long first = 0;
+        long second = 1;
+        long intermediate;
         System.out.println(first);
         System.out.println(second);
 
@@ -19,19 +21,13 @@ public class test {
 
     public static void main(String[] args) {
 
-        // int a = 2;
-        // int b = 3;
-        // int exchange = a;
-        // a = b;
-        // b = exchange;
+        Scanner sc = new Scanner(System.in);
+        int length = sc.nextInt();
+        if_loops obj = new if_loops();
+        obj.fibonacchi(length);
 
-        // System.out.println(a);
-        // System.out.println(b);
-
-        test obj = new test();
-        obj.fibonacchi(10);
-
-        System.out.println("aniekt");
+        sc.close();
 
     }
+
 }
