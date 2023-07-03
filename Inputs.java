@@ -11,11 +11,12 @@ class Inputs {
         float sum = num1 + num2;
         System.out.println(sum);
 
-        sc.close();
-
         // will trim all the spaces at the start of a String.
-        String str = "     Aniket goyal is my name";
-        System.out.println(str.trim());
+        // How to take char input
+        char character = sc.next().trim().charAt(0);
+        System.out.println(character);
+
+        sc.close();
 
     }
 }
