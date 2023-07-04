@@ -9,7 +9,7 @@ public class Shadowing {
     public static void main(String[] args) {
 
         System.out.println(x);
-        int x = 230;
+        int x = 100;
         System.out.println("Now, the first x is overshadowed by this x.");
         System.out.println(x);
         fun();
