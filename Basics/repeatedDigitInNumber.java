@@ -1,7 +1,5 @@
 package Basics;
 
-import java.util.Scanner;
-
 public class repeatedDigitInNumber {
 
     public static void main(String[] args) {
