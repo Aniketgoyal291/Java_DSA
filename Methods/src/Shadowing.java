@@ -1,6 +1,6 @@
 // Shadowing is the practice of using 2 variables of the same name within the
 // scope that overlaps.
-
+// Shadowing only works in class variables and does not work in method var.
 public class Shadowing {
 
     static int x = 10; // It will be available everywhere in the scope of
