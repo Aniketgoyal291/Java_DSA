@@ -4,12 +4,10 @@ public class test {
 
     public static void main(String[] args) {
 
-        System.out.println(Arrays.toString(getIndices()));
+        int[] nums = {1,3,4,2};
+        int[] newNums = new int[nums.length];
+        for(int i : nums){
 
+        }
     }
-    static int[] getIndices(){
-        int[] arr = {234,242};
-        return arr;
-    }
-
 }
